@@ -24,18 +24,18 @@ for USER in "$@"; do
     fi
 done
 
-Ligne hors script.
-Explication :
-1.	Le script vérifie s'il y a des arguments fournis (les noms d'utilisateurs).
-2.	Pour chaque utilisateur, il vérifie s'il existe déjà avec la commande id.
-3.	Si l'utilisateur n'existe pas, il est créé avec un répertoire home et un mot de passe par défaut.
-4.	Si l'utilisateur existe déjà, un message est affiché pour passer à l'utilisateur suivant.
+#Ligne hors script.
+#Explication :
+#1.	Le script vérifie s'il y a des arguments fournis (les noms d'utilisateurs).
+#2.	Pour chaque utilisateur, il vérifie s'il existe déjà avec la commande id.
+#3.	Si l'utilisateur n'existe pas, il est créé avec un répertoire home et un mot de passe par défaut.
+#4.	Si l'utilisateur existe déjà, un message est affiché pour passer à l'utilisateur suivant.
 #! /bin/bash
 
 #Transformer mon txt en script exécutable
 
-chmod +x create_users.sh
+#chmod +x create_users.sh
 
 #executer mon script sans définir 3 users : user1 user2 user3
 
-sudo ./AddUsers.sh user1 user2 user3
+#sudo ./AddUsers.sh user1 user2 user3
